@@ -1,3 +1,7 @@
+#
+# module to convert google keep takeouts to "standard notes" json format.
+# alexei lebedev, feb 2018
+#
 use Date::Parse;
 use HTML::Entities;
 use POSIX 'strftime';

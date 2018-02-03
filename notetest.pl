@@ -1,6 +1,13 @@
+#
+# module to test performance of "standard notes" loading 50,000 notes. 
+# use this to create a json file that can be imported into "standard notes".
+# perl notetest.pl > notes.json
+#
+# the performance is terrible. try not to get to 50,000 notes.
+#
 print qq!{\n!;
 print qq!  "items": [\n!;
-for ($i=0; $i<500; $i++) {
+for ($i=0; $i<50000; $i++) {
     if ($i>0) {
 	print(",");
     }
@@ -18,5 +25,3 @@ for ($i=0; $i<500; $i++) {
 }
 print qq!  ]\n!;
 print qq!}\n!;
-
-
