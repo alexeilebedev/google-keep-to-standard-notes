@@ -1,9 +1,11 @@
+#!/usr/bin/perl
 #
 # module to test performance of "standard notes" loading 50,000 notes. 
 # use this to create a json file that can be imported into "standard notes".
 # perl notetest.pl > notes.json
 #
 # the performance is terrible. try not to get to 50,000 notes.
+# (and it's only 10MB)
 #
 print qq!{\n!;
 print qq!  "items": [\n!;

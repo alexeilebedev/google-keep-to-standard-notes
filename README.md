@@ -11,8 +11,7 @@ Conversion instructions:
 4. in Standard Notes (desktop version), select "import data from archive", import the json file
 
 Caveats:
-- images are not supported
-- still working on Russian support.
+- keep attachments are not supported
 
 You will need the Perl JSON module. If this is not found,
 do "cpan install JSON" first.
